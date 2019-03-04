@@ -3,7 +3,7 @@ import sys
 import re
 
 def correctTheCC(my_string):
-	#my_string_ex1 = "\"CHELSEA,SWNA\\BOLING,X.Y@CO.com,\"BOLING,\"EHHH"
+	#my_string_ex1 = "\"CHELSEA,SWNA\\BOLING,X.Y@CO.com,\"BOLING"
 	my_list = my_string.split(",")
 	matching2 = [s for s in my_list if re.match('[a-zA-Z]*', s,0)]
 	print matching2
