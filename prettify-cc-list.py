@@ -29,5 +29,3 @@ if __name__ == '__main__':
 	print 'this is: ' + ccText +' \t'
 	theRealDeal = correctTheCC(ccText)
 	print theRealDeal + ' has been copied to your clipboard'
-
-	#clear
