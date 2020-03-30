@@ -27,5 +27,5 @@ if __name__ == '__main__':
 			if stringCorrect == True:
 				ccText = arg
 	print 'this is: ' + ccText +' \t'
-	theRealDeal = correctTheCC(ccText)
-	print theRealDeal + ' has been copied to your clipboard'
+	text = correctTheCC(ccText)
+	print text + ' has been copied to your clipboard'
